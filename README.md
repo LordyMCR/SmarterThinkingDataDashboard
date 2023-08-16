@@ -2,38 +2,30 @@
 
 Final Year Project
 
-<div align="center">
-  <img src="Product Screenshots/02-DashboardHome.png" id="image" style="max-width: 100%; height: auto;">
-  <br>
-  <button onclick="changeImage(-1)">&#8592; Previous</button>
-  <button onclick="changeImage(1)">Next &#8594;</button>
-</div>
+## Product Screenshots
 
-<script>
-  const images = [
-    "Product Screenshots/01.0-LoginScreen.png",
-    "Product Screenshots/02-DashboardHome.png",
-    "Product Screenshots/03-AppUserManagement.png",
-    "Product Screenshots/04-UserDetails.png",
-    "Product Screenshots/05-SubmissionDetails.png",
-    "Product Screenshots/06-UserMetrics-AllUsers.png",
-    "Product Screenshots/08-ParameterReport-UserSearch.png",
-    "Product Screenshots/09-ParameterReport-UserSearch-65AndOver.png",
-    "Product Screenshots/10-ParameterReport-FeelingSearch.png",
-    "Product Screenshots/11-ParameterReport_FeelingSearch-Depression.png",
-    "Product Screenshots/12-FullDataExport.png",
-  ];
-  
-  let currentImageIndex = 0;
-  const imageElement = document.getElementById("image");
+### Home Screen
+<img src="Product Screenshots/02-DashboardHome.png" id="image" style="max-width: 100%; height: auto;">
 
-  function changeImage(direction) {
-    currentImageIndex += direction;
-    if (currentImageIndex < 0) {
-      currentImageIndex = images.length - 1;
-    } else if (currentImageIndex >= images.length) {
-      currentImageIndex = 0;
-    }
-    imageElement.src = images[currentImageIndex];
-  }
-</script>
+### Login Screen
+<img src="Product Screenshots/01.0-LoginScreen.png" id="image" style="max-width: 100%; height: auto;">
+
+### Mobile App User Management Screen
+<img src="Product Screenshots/03-AppUserManagement.png" id="image" style="max-width: 100%; height: auto;">
+
+### Specific User Details Screen
+<img src="Product Screenshots/04-UserDetails.png" id="image" style="max-width: 100%; height: auto;">
+
+### User Metrics - All Users Screen
+<img src="Product Screenshots/06-UserMetrics-AllUsers.png" id="image" style="max-width: 100%; height: auto;">
+
+### Parameter Report - User Search Screens
+<img src="Product Screenshots/08-ParameterReport-UserSearch.png" id="image" style="max-width: 100%; height: auto;">
+<img src="Product Screenshots/09-ParameterReport-UserSearch-65AndOver.png" id="image" style="max-width: 100%; height: auto;">
+
+## Parameter Report - Feeling Search Screens
+<img src="Product Screenshots/10-ParameterReport-FeelingSearch.png" id="image" style="max-width: 100%; height: auto;">
+<img src="Product Screenshots/11-ParameterReport_FeelingSearch-Depression.png" id="image" style="max-width: 100%; height: auto;">
+
+### Full Data Export Screen
+<img src="Product Screenshots/12-FullDataExport.png" id="image" style="max-width: 100%; height: auto;">
