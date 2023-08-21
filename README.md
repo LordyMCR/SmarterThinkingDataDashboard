@@ -1,6 +1,7 @@
 # Smarter Thinking - Administrative and Analytical Data Dashboard
+Final year university project built using Vue.js front-end and Firebase back-end. Data dashboard website built as a solution to a problem presented by a cognitive behavioural therapy mobile application development team. The web app offers visual insights into mobile app user data and submitted beliefs, aiding the CBT experts and developers to understanding the data.
 
-Final Year Project
+**Note: All Firebase connection usernames, passwords, and keys have been removed.**
 
 ## Product Screenshots
 
